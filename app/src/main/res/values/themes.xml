@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ProyectoFinal_Carlos_Calvente" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimaryDark">@color/barraEstado</item>
+        <item name="android:windowBackground">@color/fondo</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="appBar" parent="Theme.ProyectoFinal_Carlos_Calvente">
+        <item name="android:background">@color/barra</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="bootomBar" parent="Theme.ProyectoFinal_Carlos_Calvente">
+        <item name="android:background">@color/barra</item>
+
+    </style>
+
+    <style name="estiloButton" parent="Theme.ProyectoFinal_Carlos_Calvente">
+        <item name="android:backgroundTint">@color/barra</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <style name="splash" parent="Theme.ProyectoFinal_Carlos_Calvente">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+</resources>
